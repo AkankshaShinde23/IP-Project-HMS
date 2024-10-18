@@ -2,17 +2,17 @@
 
 ## Getting Started
 
-1. **Clone the repository:**
+1. Clone the repository:**
 
    ```bash
    git clone https://github.com/all3n2601/HMSMern.git
    ```
-2. **Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```bash
    cd frontend
    ```
-3. **Install dependencies:
+3. Install dependencies:
 
    ```bash
    npm install
