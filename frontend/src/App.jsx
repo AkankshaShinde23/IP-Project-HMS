@@ -26,6 +26,9 @@ import { PersistGate } from "redux-persist/integration/react";
 import { Provider } from "react-redux";
 import { persistor, store } from "./redux/store.js";
 
+import Login from './components/loginsignin/LoginSignin';
+
+
 import PrivateRoute from "./components/Routes/PrivateRoute.jsx";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -41,7 +44,8 @@ function App() {
             <Route path="/appointment" element={<Appointment />} />
             <Route path="/contact-us" element={<ContactUs />} />
             <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/sign-in" element={<SignInPage />} />
+            {/* <Route path="/sign-in" element={<SignInPage />} />  yaha par maine changes kiye hai - comment out kardiya */}
+            <Route path="/sign-in" element={<Login />} />  
             <Route path="/sign-up" element={<SignUpPage />} />
             <Route path="/doctor-sign-in" element={<DoctorAuthPage />} />
             <Route path="/nurse-sign-in" element={<NurseAuthPage />} />

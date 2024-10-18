@@ -1,4 +1,4 @@
-# Hospital Management System using MERN Stack,Redux, TailwindCSS and Framer Motion
+# Hospital Management System using MERN Stack and Framer Motion
 
 ## Getting Started
 
@@ -17,12 +17,11 @@
    ```bash
    npm install
    ```
-4. **Set up MongoDB:
+4. Set up MongoDB:
    - Create a MongoDB database.
    - Update the MongoDB connection string in env
-   - Create a secret jwt key in  server/config/config.js.
 
-5. **Start the application:
+5. Start the application:
 
    ```bash
    npm run dev
